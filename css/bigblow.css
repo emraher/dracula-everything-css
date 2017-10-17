@@ -1,28 +1,28 @@
 * {
-  border-color: #657b83 !important;
+  border-color: #44475a !important;
 }
 a {
-  color: #268bd2 !important;
+  color: #8be9fd !important;
 }
 a:visited {
-  color: #6c71c4 !important;
+  color: #bd93f9 !important;
 }
 body {
-  background-color: #002b36 !important;
-  color: #839496 !important;
+  background-color: #282a36 !important;
+  color: #6272a4 !important;
 }
 html {
-  background-color: #002b36 !important;
+  background-color: #282a36 !important;
 }
 input,
 textarea {
-  background-color: #073642 !important;
-  color: #839496 !important;
+  background-color: #282a36 !important;
+  color: #6272a4 !important;
 }
 blockquote,
 pre {
-  background-color: #073642 !important;
-  color: #839496 !important;
+  background-color: #282a36 !important;
+  color: #6272a4 !important;
 }
 html,
 body {
@@ -37,18 +37,18 @@ body {
 }
 #preamble {
   background: none repeat scroll 0 0 #46484b;
-  color: #002b36 !important;
+  color: #282a36 !important;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 70%;
   font-weight: bold;
-  height: 224px;
+  height: 224px /* so that content begins after... */;
   padding: 2px 2px 0 6px;
 }
 #banner {
   text-align: center;
 }
 #tabs {
-  background-color: #268bd2 !important;
+  background-color: #8be9fd !important;
   float: left;
   margin: 0px 0px 20px 0px;
   padding: 0;
@@ -76,15 +76,15 @@ body {
 }
 #tabs li a:hover {
   background: #759fcf;
-  color: #002b36 !important;
+  color: #282a36 !important;
 }
 #tabs .ui-tabs-active a {
-  background: #002b36;
+  background: #282a36;
   color: #555 !important;
 }
 #content {
   clear: both;
-  background-color: #002b36 !important;
+  background-color: #282a36 !important;
   font-size: 100%;
   margin: 0 auto;
   max-width: 810px;
@@ -114,7 +114,7 @@ b {
   color: #000 !important;
 }
 blockquote {
-  background-color: #073642 !important;
+  background-color: #282a36 !important;
   border: 1px solid #dedede;
   color: #444 !important;
   line-height: 1.14em;
@@ -212,7 +212,7 @@ dd {
 }
 pre {
 /* Use #EAEAEA for background-color of border with src code block's name */
-  background-color: #073642 !important;
+  background-color: #282a36 !important;
   border: 1px solid #dedede;
   color: #444 !important;
   font-family: monospace;
@@ -222,7 +222,7 @@ pre {
   padding: 10px 10px 10px 10px !important;
 }
 code {
-  background-color: #073642 !important;
+  background-color: #282a36 !important;
   border: 1px solid #dedede;
   color: #444 !important;
   font-family: monospace;
@@ -253,12 +253,12 @@ li.unchecked {
 }
 a,
 a link {
-  color: #268bd2 !important;
+  color: #8be9fd !important;
   text-decoration: none;
 }
 a:visited,
 a link:visited {
-  color: #6c71c4 !important;
+  color: #bd93f9 !important;
 }
 a:hover,
 a link:hover {
@@ -270,7 +270,7 @@ a link focus {
 }
 #search {
   border-radius: 3px;
-  background: none repeat scroll 0 0 #002b36;
+  background: none repeat scroll 0 0 #282a36;
   display: block;
   float: right;
   height: 18px;
@@ -312,15 +312,15 @@ table td {
 table,
 th,
 td {
-  border: 1px solid #657b83;
-  border-left: 2px solid #002b36;
-  border-right: 2px solid #002b36;
+  border: 1px solid #44475a;
+  border-left: 2px solid #282a36;
+  border-right: 2px solid #282a36;
 }
 th {
   border-width: 1px 2px;
-  border-color: #002b36 !important;
-  background-color: #268bd2 !important;
-  color: #002b36 !important;
+  border-color: #282a36 !important;
+  background-color: #8be9fd !important;
+  color: #282a36 !important;
 }
 caption {
   color: #8d8d84 !important;
@@ -425,15 +425,15 @@ img {
 }
 .TODO {
   background-color: #fed5d7 !important;
-  border: 1px solid #dc322f;
-  color: #dc322f !important;
+  border: 1px solid #f55;
+  color: #f55 !important;
 }
 .STRT,
 .STARTED,
 .UNDERWAY {
   background-color: #fef2d4 !important;
-  border: 1px solid #b58900;
-  color: #b58900 !important;
+  border: 1px solid #f1fa8c;
+  color: #f1fa8c !important;
 }
 .WAIT,
 .WAITING,
@@ -459,8 +459,8 @@ img {
   color: #969696 !important;
 }
 .tag span {
-  background-color: #073642 !important;
-  border: 1px solid #073642;
+  background-color: #282a36 !important;
+  border: 1px solid #282a36;
   color: #939393 !important;
   cursor: pointer;
   display: block;
@@ -475,8 +475,8 @@ img {
   font-size: 100%;
 }
 .tag span:hover {
-  background-color: #586e75 !important;
-  color: #002b36 !important;
+  background-color: #44475a !important;
+  color: #282a36 !important;
 }
 .tag span .FLAGGED {
   background-color: #edc6c8 !important;
@@ -499,7 +499,7 @@ span.todo {
   margin: -1px 3px 0px 0px;
 }
 span.todo:hover {
-  background: #586e75;
+  background: #44475a;
   color: #888 !important;
 }
 span.todo .selected {
@@ -547,7 +547,7 @@ span.todo .selected {
   font-size: 80%;
 }
 #table-of-contents {
-  background-color: #073642 !important;
+  background-color: #282a36 !important;
   border: 1px solid #e4e4e4;
   display: table;
   line-height: 1.2em;
@@ -585,7 +585,7 @@ span.todo .selected {
   text-decoration: underline;
 }
 #minitoc {
-  background-color: #073642 !important;
+  background-color: #282a36 !important;
   border: 1px solid #e4e4e4;
   color: #484848 !important;
   line-height: 1.2em;
@@ -626,14 +626,14 @@ p.verse {
 #toTop {
   background: #f7f7f7;
   border: 1px solid #ccc;
-  top: 10px;
+  top: 10px /* together with this to put the div at the top */;
   color: #333 !important;
   cursor: pointer;
   display: none;
   font-family: verdana;
   font-size: 11px;
   padding: 5px;
-  position: fixed;
+  position: fixed /* this is the magic */;
   right: 10px;
   text-align: center;
   width: 100px;
